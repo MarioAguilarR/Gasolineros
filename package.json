@@ -1,15 +1,10 @@
 {
   "name": "gasolinera-mock",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^1.0.0"
   }
 }
