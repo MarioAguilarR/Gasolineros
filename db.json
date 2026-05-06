@@ -2,7 +2,7 @@
   "fuels": [
     { "id": "magna",   "label": "Magna",   "price_per_liter": 23.80, "currency": "MXN", "active": true },
     { "id": "premium", "label": "Premium", "price_per_liter": 28.38, "currency": "MXN", "active": true },
-    { "id": "diesel",  "label": "Diesel",  "price_per_liter": 21.50, "currency": "MXN", "active": true }
+    { "id": "diesel",  "label": "Diesel",  "price_per_liter": 21.50, "currency": "MXN", "active": false }
   ],
   "pumps": [
     { "id": 1, "status": "available", "fuels": ["magna", "premium", "diesel"] },
