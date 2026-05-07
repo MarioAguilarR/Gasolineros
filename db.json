@@ -7,7 +7,33 @@
   "pumps": [
     { "id": 1, "status": "available", "fuels": ["magna", "premium", "diesel"] },
     { "id": 2, "status": "in_use",    "fuels": ["magna"] },
-    { "id": 3, "status": "available", "fuels": ["magna", "diesel"]  },
+    { "id": 3, "status": "available", "fuels": ["magna", "diesel"] },
     { "id": 4, "status": "available", "fuels": ["magna", "premium"] }
+  ],
+  "charge_options": [
+    {
+      "id": "magna",
+      "fuel_id": "magna",
+      "amounts":  [100, 150, 200, 500, 1000],
+      "liters":   [5, 10, 20, 40, 60],
+      "allow_full_tank": true,
+      "allow_custom": true
+    },
+    {
+      "id": "premium",
+      "fuel_id": "premium",
+      "amounts":  [100, 150, 200, 500, 1000],
+      "liters":   [5, 10, 20, 40, 60],
+      "allow_full_tank": true,
+      "allow_custom": true
+    },
+    {
+      "id": "diesel",
+      "fuel_id": "diesel",
+      "amounts":  [200, 500, 1000],
+      "liters":   [20, 40, 60, 100],
+      "allow_full_tank": true,
+      "allow_custom": true
+    }
   ]
 }
